@@ -1,0 +1,5 @@
+node_modules
+dist
+*.egg
+logs
+.DS_STORE

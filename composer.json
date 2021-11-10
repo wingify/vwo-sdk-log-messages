@@ -1,0 +1,10 @@
+{
+  "name": "vwo/vwo-sdk-log-messages",
+  "keywords": ["vwo", "sdk"],
+  "license": "Apache-2.0",
+  "authors": [{
+    "name": "VWO developers",
+    "email": "dev@wingify.com"
+  }],
+  "description": "VWO SDK Log Messages"
+}

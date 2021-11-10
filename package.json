@@ -1,0 +1,19 @@
+{
+  "name": "vwo-sdk-log-messages",
+  "version": "0.1.0",
+  "description": "VWO SDK Logs at one place",
+  "scripts": {
+    "test": "yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wingify/vwo-sdk-log-messages"
+  },
+  "keywords": [
+    "VWO",
+    "Logging",
+    "SDK"
+  ],
+  "author": "dev@wingify.com",
+  "license": "Apache-2.0"
+}
