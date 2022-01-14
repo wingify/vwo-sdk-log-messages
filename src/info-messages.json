@@ -7,7 +7,7 @@
 
   "POLLING_SUCCESS": "({file}): settings-file fetched successfully via polling for the accountId:{accountId}",
   "POLLING_SETTINGS_FILE_UPDATED": "({file}): SDK instance is updated with the latest settings-file for the accountId:{accountId}",
-  "POLLING_SETTINGS_FILE_NOT_UPDATED": "{{file}}: settings-file fetched via polling is same as earlier fetched settings",
+  "POLLING_SETTINGS_FILE_NOT_UPDATED": "{file}: settings-file fetched via polling is same as earlier fetched settings",
 
   "DECISION_NO_VARIATION_ALLOTED": "({file}): Variation was not assigned to the User ID:{userId} for Campaign:{campaignKey}",
 
@@ -48,5 +48,11 @@
   "USER_VARIATION_ALLOCATION_STATUS": "({file}): User ID:{userId} for Campaign:{campaignKey} {status}",
 
   "OPT_OUT_API_CALLED": "({file}): You have opted out for not tracking i.e. all API calls will stop functioning and will simply early return",
-  "API_NOT_ENABLED": "({file}): {api} API is disabled as you opted out for tracking. Reinitialize the SDK to enable the normal functioning of all APIs."
+  "API_NOT_ENABLED": "({file}): {api} API is disabled as you opted out for tracking. Reinitialize the SDK to enable the normal functioning of all APIs.",
+
+  "INITIATING_ACTIVATE": "({file}): Initiating activation of user {userId} for campaign {campaignKey}.",
+  "INITIATING_GET_VARIATION": "({file}): Initiating getVariation of user '{userId}' for campaign '{campaignKey}'.",
+  "INITIATING_GET_FEATURE_VARIATION": "({file}): Initiating getFeatureVariable for variable key '{variableKey}' of user '{userId}' for campaign '{campaignKey}'.",
+  "INITIATING_IS_FEATURE_ENABLED": "({file}): Initiating isFeatureEnabled of user '{userId}' for campaign '{campaignKey}'.",
+  "INITIATING_PUSH_DIMENSION": "({file}): Initiating push segment of user '{userId}' with tag name `{tagKey}` and tag value '{tagValue}'."
 }
