@@ -34,5 +34,6 @@
   "TRACK_API_REVENUE_NOT_PASSED_FOR_REVENUE_GOAL": "({file}): Revenue value should be passed for revenue goal:{goalIdentifier} for Campaign:{campaignKey} and User Id:{userId}",
 
   "UNABLE_TO_CAST_VALUE": "({file}): Unable to cast value:{variableValue} to type:{variableType}, returning null",
-  "VARIABLE_NOT_FOUND": "({file}): Variable:{variableKey} for User ID:{userId} is not found in settings-file, returning null"
+  "VARIABLE_NOT_FOUND": "({file}): Variable:{variableKey} for User ID:{userId} is not found in settings-file, returning null",
+  "MISSING_IMPORT_SETTINGS_MANDATORY_PARAMS": "AccountId and sdkKey are required for fetching account settings. Aborting!"
 }
