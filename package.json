@@ -1,6 +1,6 @@
 {
   "name": "vwo-sdk-log-messages",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "VWO SDK Logs at one place",
   "scripts": {
     "test": "yarn test"
