@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.0] = 2022-22-02
+
+### Changed
+
+- Add `src/index.php` to return the list of messages rather than SDK requiring the files via relative path
+
+## [0.4.0] - 2022-17-01
+
+### Changed
+
+- Java SDK related changes
+
 ## [0.2.0] - 2022-14-01
 
 ### Added
