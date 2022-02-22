@@ -6,5 +6,10 @@
     "name": "VWO developers",
     "email": "dev@wingify.com"
   }],
+  "autoload": {
+    "psr-4": {
+        "vwo\\": "src/"
+    }
+  },
   "description": "VWO SDK Log Messages"
 }
