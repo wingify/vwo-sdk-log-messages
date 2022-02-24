@@ -3,3 +3,4 @@ dist
 *.egg
 logs
 .DS_STORE
+*.gem
