@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = 'vwo_log_messages'
-  spec.version       = '0.7.1'
+  spec.version       = '0.7.3'
   spec.authors       = ['VWO']
   spec.email         = ['dev@wingify.com']
 
