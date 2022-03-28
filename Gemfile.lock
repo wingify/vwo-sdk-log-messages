@@ -1,17 +1,17 @@
 PATH
   remote: .
   specs:
-    vwo_log_messages (0.7.0)
+    vwo_log_messages (0.7.4)
 
 GEM
   remote: http://rubygems.org/
   specs:
 
 PLATFORMS
-  x86_64-darwin-17
+  ruby
 
 DEPENDENCIES
   vwo_log_messages!
 
 BUNDLED WITH
-   2.3.5
+   2.2.10
