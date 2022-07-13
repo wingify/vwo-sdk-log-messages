@@ -4,3 +4,6 @@ dist
 logs
 .DS_STORE
 *.gem
+pom.xml.releaseBackup
+release.properties
+target
