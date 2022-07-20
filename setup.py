@@ -43,7 +43,7 @@ class PostDevelopCommand(develop):
 
 setup(
     name="vwo-sdk-log-messages",
-    version="0.5.0",
+    version="0.10.0",
     description="Log messages for VWO server-side SDKs",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -67,6 +67,6 @@ setup(
     cmdclass={
         "develop": PostDevelopCommand
     },
-    packages=find_packages(exclude=["tests"])
-    install_requires=[],
+    packages=find_packages(exclude=["tests"]),
+    install_requires=[]
 )

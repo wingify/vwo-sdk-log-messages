@@ -32,6 +32,7 @@
 
   "TRACK_API_GOAL_NOT_FOUND": "({file}): Goal:{goalIdentifier} not found for Campaign:{campaignKey} and User Id:{userId}",
   "TRACK_API_REVENUE_NOT_PASSED_FOR_REVENUE_GOAL": "({file}): Revenue value should be passed for revenue goal:{goalIdentifier} for Campaign:{campaignKey} and User Id:{userId}",
+  "TRACK_API_EVENTS_REVENUE_NOT_PASSED": "({file}): Revenue value should be passed either in options or as an event property for revenue goal:{goalIdentifier} for Campaign:{campaignKey} and User Id:{userId}",
 
   "UNABLE_TO_CAST_VALUE": "({file}): Unable to cast value:{variableValue} to type:{variableType}, returning null",
   "VARIABLE_NOT_FOUND": "({file}): Variable:{variableKey} for User ID:{userId} is not found in settings-file, returning null",
